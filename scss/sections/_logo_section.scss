@@ -1,0 +1,58 @@
+#logo {
+  background: #e5e5e5;
+  padding: 100px 0;
+  .heading {
+    h2 {
+      font-family: "Effra";
+      font-weight: 700;
+      font-size: 64px;
+      text-align: center;
+      color: #000000;
+      @media (max-width: 768px) {
+        font-size: 40px;
+      }
+    }
+  }
+  .logo_area {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    @media (max-width: 1200px) {
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+    @media (max-width: 992px) {
+      grid-template-columns: auto auto ;
+      gap: initial;
+    }
+    @media (max-width: 768px) {
+      grid-template-columns: auto;
+      gap: initial;
+    }
+    @media(max-width:480px){
+      margin-left: -50px;
+    }
+    img {
+      box-shadow: 3px 5px 5px;
+      transition: 1s;
+    }
+    a {
+      @media (max-width: 991px) {
+        margin: 10px 0 0 60px;
+        img {
+          margin-top: 20px;
+        }
+      }
+      @media (max-width: 768px) {
+        margin: 10px 0 0 120px;
+        img {
+          margin-top: 20px;
+        }
+      }
+      img:hover {
+        transform: scale(1.1);
+        color: black;
+      }
+    }
+  }
+}

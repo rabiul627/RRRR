@@ -1,0 +1,33 @@
+#view{
+    padding: 100px 0;
+    background: #FAFAFA;
+    img{
+        @media(max-width:930px){
+            max-width: 700px;
+            padding-bottom: 10px;
+        }
+        @media(max-width:768px){
+            max-width: 550px;
+            padding-top: 10px;
+        }
+        @media(max-width:600px){
+            max-width: 450px;
+            padding-top: 10px;
+        }
+        @media(max-width:480px){
+            max-width: 350px;
+            padding-top: 10px;
+        }
+    }
+    button{
+        padding: 16px 32px;
+        border-radius: 40px;
+        @media(max-width:600px){
+           width: 450px;
+            
+        }
+        @media(max-width:480px){
+           width: 350px;
+        }
+    }
+}

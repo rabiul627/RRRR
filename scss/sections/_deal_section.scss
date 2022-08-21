@@ -1,0 +1,162 @@
+#deal {
+  padding: 100px 0;
+  background: #000000;
+  .deal {
+    .heading {
+      h2 {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 76px;
+        text-align: center;
+        color: #ffffff;
+        @media(max-width:480px){
+          font-size: 50px;
+        }
+      }
+      .btn_area {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        h4 {
+          color: #ffffff;
+        }
+        img {
+          padding: 0 24px;
+        
+        }
+        h5 {
+          padding-right: 24px;
+        }
+        .engle_area {
+          h6 {
+            width: 71.89px;
+            height: 28px;
+            font-family: "GoodDog New";
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 14px;
+            text-align: center;
+            color: #ffffff;
+            transform: rotate(6deg);
+          }
+        }
+      }
+    }
+    .cards {
+      padding-top: 52px;
+     
+      @media(max-width:992px){
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+      @media(max-width:768px){
+        display: grid;
+        grid-template-columns: auto;
+      }
+      .card {
+        background: #fafafa;
+        border-radius: 16px;
+        transition: 1s;
+        cursor: pointer;
+        
+        @media(max-width:992px){
+          width: 300px;
+        }
+        @media(max-width:768px){
+          margin: 10px 0 0 100px;
+        }
+        @media(max-width:420px){
+          margin: 10px 0 0 50px;
+        }
+        .card_heading {
+          padding: 32px 0 0 32px;
+          h2 {
+            font-family: "Effra";
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 100%;
+            color: #000000;
+          }
+          h6 {
+            font-family: "Effra";
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 100%;
+            color: #000000;
+          }
+        }
+        .div {
+          opacity: 0.2;
+          border: 1px solid #000000;
+          margin: 32px 32px;
+          @media(max-width:768px){
+           margin-top: 20px;
+          }
+        }
+        .bdg {
+          padding-left: 32px;
+          h3 {
+            font-family: "Effra";
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 100%;
+            color: #000000;
+            @media(max-width:768px){
+              font-size: 50px;
+              margin-top: -20px;
+            }
+            span {
+              font-size: 18px;
+              color: black;
+            }
+          }
+        }
+        .lists_area {
+          padding: 32px;
+          @media(max-width:768px){
+            padding: 15px 0 10px 32px;
+          }
+          .list {
+            padding-top: 24px;
+            li {
+              list-style: none;
+            }
+            h6 {
+              padding-left: 8px;
+            }
+          }
+        }
+        .btn_area {
+          margin: 0 32px;
+          background: #a8ff35;
+          border-radius: 29px;
+          text-align: center;
+          transition: 1s;
+          button {
+            font-family: "Effra";
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+            background: transparent;
+            border: none;
+            padding: 20px;
+            cursor: pointer;
+          }
+        }
+        .btn_area:hover{
+            transform: scale(1.1);
+            background: #000000;
+            button{
+              color: #fff;
+            }
+        }
+      }
+      .card:hover{
+        transform: scale(1.1);
+        background: #A8FF35;
+        z-index: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,207 @@
+#hero {
+  background-color: #000;
+  padding: 100px 0;
+  h1 {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 112%;
+    text-align: center;
+    @media (max-width: 992px) {
+      width: 720px;
+      font-size: 60px;
+    }
+    @media (max-width: 767px) {
+      width: 515px;
+      font-size: 50px;
+    }
+    @media (max-width: 576px) {
+      width: 460px;
+      font-size: 40px;
+    }
+    @media (max-width: 476px) {
+      width: 430px;
+    }
+    @media (max-width: 375px) {
+      width: 310px;
+      font-size: 30px;
+    }
+  }
+  p {
+    width: 570px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #8b8b8b;
+    margin: 0 auto;
+    @media (max-width: 610px) {
+      width: 500px;
+    }
+    @media (max-width: 535px) {
+      width: 410px;
+    }
+    @media (max-width: 470px) {
+      width: 315px;
+      margin-bottom: 80px;
+    }
+  }
+  .hero_btn {
+    display: flex;
+    justify-content: center;
+    button {
+      padding: 16px 32px;
+      background: #a8ff35;
+      border-radius: 40px;
+      border: none;
+    }
+    h6 {
+      width: 93px;
+      height: 28px;
+      font-family: "GoodDog New";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 14px;
+      transform: rotate(12deg);
+    }
+  }
+  .social_area {
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    @media (max-width: 992px) {
+      display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    }
+    @media (max-width: 790px) {
+     margin-left: -30px;
+    }
+    @media (max-width: 768px) {
+      margin-left: -110px;
+     }
+     @media (max-width: 720px) {
+      display: grid;
+    grid-template-columns: auto;
+    margin-left: 370px;
+     }
+     @media (max-width: 475px) {
+    margin-left: 340px;
+     }
+     
+    .Cryptopunk {
+      width: 341.23px;
+      height: 82px;
+      background: linear-gradient(270deg, #181818 53.65%, rgba(24, 24, 24, 0.8) 100%);
+      transform: rotate(-4deg);
+      color: #fff;
+      @media (max-width: 992px) {
+      margin-right: 300px;
+      }
+      @media (max-width: 720px) {
+      margin-left: -300px;
+      margin-bottom: 10px;
+       }
+      .Cryptopunk_content {
+        display: flex;
+        padding: 27px 41px;
+        h6 {
+          font-family: "Roboto";
+          font-weight: 400;
+          font-size: 20.8065px;
+          line-height: 28px;
+          text-align: center;
+          color: #ffffff;
+          padding: 0 15px;
+        }
+      }
+    }
+    .Popular {
+      width: 341.23px;
+      height: 82px;
+      margin-left: -310px;
+      margin-top: 60px;
+      background: linear-gradient(270deg, #181818 53.65%, rgba(24, 24, 24, 0.8) 100%);
+      color: #fff;
+      @media (max-width: 992px) {
+       margin-top: -20px;
+      }
+      @media (max-width: 720px) {
+        margin-right: -10px;
+         }
+      .Popular_content {
+        display: flex;
+        padding: 26px 2px 25px 40px;
+        align-items: center;
+        h6 {
+          font-family: "Roboto";
+          font-weight: 400;
+          font-size: 20.8065px;
+          text-align: center;
+          color: #ffffff;
+          transform: rotate(2deg);
+          padding: 0 8px;
+        }
+      }
+    }
+    .Product{
+      width: 341.23px;
+      height: 82px;
+      margin-top: 60px;
+      background: linear-gradient(270deg, #181818 53.65%, rgba(24, 24, 24, 0.8) 100%);
+      margin-top: -1px;
+      margin-left: -250px;
+      transform: rotate(2deg);
+      color: #fff;
+      @media (max-width: 992px) {
+       margin-left: 0px;
+      }
+      @media (max-width: 720px) {
+        margin-bottom: 10px;
+        margin-left: -300px;
+         }
+      .product_content{
+        display: flex;
+        padding: 26px 2px 25px 40px;
+        align-items: center;
+        h6 {
+          font-family: "Roboto";
+          font-weight: 400;
+          font-size: 20.8065px;
+          text-align: center;
+          color: #ffffff;
+          transform: rotate(2deg);
+          padding: 0 8px;
+        }
+      }
+    }
+    .Elon{
+      width: 341.23px;
+      height: 82px;
+      background: linear-gradient(270deg, #181818 53.65%, rgba(24, 24, 24, 0.8) 100%);
+      transform: rotate(4deg);
+      color: #fff;
+      position: absolute;
+      margin: 72px 0 0 -235px;
+      @media (max-width: 992px) {
+        margin-top: -20px;
+       margin-left: -300px;
+       }
+      .Elon_content{
+        display: flex;
+        padding: 26px 2px 25px 40px;
+        align-items: center;
+        h6{
+          font-family: "Roboto";
+          font-weight: 400;
+          font-size: 20.8065px;
+          text-align: center;
+          color: #ffffff;
+          transform: rotate(2deg);
+          padding: 0 8px;
+        }
+      }
+    }
+  }
+}

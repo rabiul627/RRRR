@@ -1,0 +1,129 @@
+#new_tabs {
+  background: #a8ff35;
+  padding: 100px 0;
+
+  .new_tabs {
+    .heading {
+      @media (max-width: 768px) {
+      margin-bottom: -53px;
+      }
+      h1 {
+        font-family: "Effra";
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 86px;
+        text-align: center;
+        color: #000000;
+        @media (max-width: 768px) {
+          font-size: 50px;
+          margin-top: -40px;
+        }
+      }
+    }
+    .new_tabs_area {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin: 0 auto;
+
+      @media (max-width:768px){
+        justify-content: space-around;
+      }
+      .left_angel {
+        margin: 0 auto;
+        // margin-right: 24px;
+        @media (max-width: 638px) {
+          margin: 210px -200px 0px 0px;
+        }
+        h6 {
+          width: 93px;
+          height: 28px;
+          font-family: "GoodDog New";
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 14px;
+          text-align: center;
+          color: #000000;
+          transform: rotate(6deg);
+        }
+      }
+      .Findtrend {
+        width: 502px;
+        height: 202px;
+        background: #f5f5f5;
+        border-radius: 16px;
+        justify-content: center;
+        align-items: center;
+        @media (max-width: 992px) {
+          width: 480px;
+        }
+        @media (max-width: 768px) {
+          width: 400px;
+          height: 120px;
+          margin: 0 10px;
+        }
+        .logo_text_area {
+          display: flex;
+          padding: 15px;
+          margin: 70px 80px;
+          background: black;
+          @media (max-width: 992px) {
+            margin: 70px;
+          }
+          @media (max-width: 768px) {
+            margin: 30px;
+          }
+          h3 {
+            font-family: "Roboto";
+            font-weight: 400;
+            font-size: 23.8064px;
+            line-height: 28px;
+            text-align: center;
+            color: #ffffff;
+            padding: 0 30px 0 10px;
+            @media (max-width: 992px) {
+              width: 230px;
+            }
+            @media (max-width: 768px) {
+              width: 300px;
+              padding: 0px;
+            }
+          }
+        }
+      }
+      .right_angel {
+        margin: 0 auto;
+        // margin-left: 24px;
+        @media (max-width: 638px) {
+          margin:-182px 0px 0px -200px;
+        }
+        h6 {
+          width: 93px;
+          height: 28px;
+          font-family: "GoodDog New";
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 14px;
+          text-align: center;
+          color: #000000;
+          transform: rotate(6deg);
+        }
+      }
+    }
+    h5 {
+      width: 666px;
+      height: 54px;
+      margin: 0 auto;
+      font-family: "Effra";
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      text-align: center;
+      color: #000000;
+      @media (max-width: 768px) {
+        width: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+#text {
+  padding: 100px 0;
+  background: #ffffff;
+  .text {
+    
+    h2 {
+      max-width: 1160px;
+      font-family: "Effra";
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 76px;
+      text-align: center;
+      color: #000000;
+     @media(max-width:768px){
+      font-size: 50px;
+      line-height: 50px;
+     }
+      span {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 76px;
+        color: #adadad;
+        @media(max-width:768px){
+          font-size: 50px;
+          line-height: 50px;
+         }
+      }
+    }
+  }
+}
